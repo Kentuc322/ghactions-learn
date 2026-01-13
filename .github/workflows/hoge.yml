@@ -1,0 +1,9 @@
+name: GitHub Actions Hoge Workflow
+
+on: [push]
+
+jobs:
+    run-hello-world:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Hello, World!"
